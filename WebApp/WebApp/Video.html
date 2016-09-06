@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="Script/Video.js"></script>
+</head>
+<body>
+    <button onclick="checkVideo()" style="font-family: Arial, Helvetica, sans-serif;">Check</button>
+    <div id="checkVideoResult" style="margin: 10px 0 0 0; border: 0; padding: 0;">
+    </div>
+    <div>
+        <video id="video1" width="420">
+            <source src="Resource/movie.ogg" type="video/ogg">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <div class="btn_ctrl">
+        <button onclick="playPause()">播放/暂停</button>
+        <button onclick="makeBig()">大</button>
+        <button onclick="makeNormal()">中</button>
+        <button onclick="makeSmall()">小</button>
+    </div>
+</body>
+</html>
