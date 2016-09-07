@@ -57,7 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Vedio.html" />
+    <Content Include="Drag.html" />
+    <Content Include="Resource\w3school_banner.gif" />
+    <Content Include="Script\Drag.js" />
+    <Content Include="Script\Video.js" />
+    <Content Include="Video.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -72,9 +76,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Script\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
