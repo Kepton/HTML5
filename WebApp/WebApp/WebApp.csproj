@@ -57,8 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Canvas.html" />
     <Content Include="Drag.html" />
     <Content Include="Resource\w3school_banner.gif" />
+    <Content Include="Script\Canvas.js" />
     <Content Include="Script\Drag.js" />
     <Content Include="Script\Video.js" />
     <Content Include="Video.html" />
