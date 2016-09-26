@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="Canvas.html" />
     <Content Include="Drag.html" />
+    <Content Include="Form.html" />
     <Content Include="Resource\w3school_banner.gif" />
     <Content Include="Script\Canvas.js" />
     <Content Include="Script\Drag.js" />
